@@ -1,0 +1,8 @@
+{
+  "boldness_levels": [
+    { "id": "safe", "name": "Safe", "description": "Friendly, easygoing, minimal risk of awkwardness." },
+    { "id": "confident", "name": "Confident", "description": "Clear and direct without being over the top." },
+    { "id": "bold", "name": "Bold", "description": "Playfully forward - stands out, still respectful." },
+    { "id": "edgy", "name": "Edgy", "description": "Sharper humor or teasing - higher risk, higher reward, best used once rapport exists." }
+  ]
+}
