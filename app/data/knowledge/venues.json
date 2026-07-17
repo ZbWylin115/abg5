@@ -1,0 +1,15 @@
+{
+  "venues": [
+    { "id": "coffee_shop", "name": "Coffee Shop", "setting": "in_person", "tags": ["low-key", "daytime"] },
+    { "id": "dating_app", "name": "Dating App", "setting": "online", "tags": ["text-first", "asynchronous"] },
+    { "id": "instagram", "name": "Instagram", "setting": "online", "tags": ["text-first", "casual"] },
+    { "id": "bar", "name": "Bar", "setting": "in_person", "tags": ["evening", "social"] },
+    { "id": "club", "name": "Club", "setting": "in_person", "tags": ["high-energy", "night"] },
+    { "id": "gym", "name": "Gym", "setting": "in_person", "tags": ["daytime", "active"] },
+    { "id": "bookstore", "name": "Bookstore", "setting": "in_person", "tags": ["low-key", "daytime"] },
+    { "id": "library", "name": "Library", "setting": "in_person", "tags": ["quiet", "daytime"] },
+    { "id": "restaurant", "name": "Restaurant", "setting": "in_person", "tags": ["evening", "sit-down"] },
+    { "id": "campus", "name": "Campus", "setting": "in_person", "tags": ["daytime", "casual"] },
+    { "id": "festival", "name": "Festival", "setting": "in_person", "tags": ["high-energy", "outdoor"] }
+  ]
+}
