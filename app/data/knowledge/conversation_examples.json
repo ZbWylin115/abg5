@@ -1,0 +1,125 @@
+{
+  "examples": [
+    {
+      "id": "opening_coffee_bookish_confident_001",
+      "type": "opening",
+      "text": "Hey, I noticed the book you're reading - how far in are you? I've been meaning to pick it up.",
+      "archetypes": ["bookish"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["coffee_shop", "bookstore", "library"],
+      "interest_levels": ["neutral"], "boldness_levels": ["confident"], "tags": []
+    },
+    {
+      "id": "opening_gym_safe_001",
+      "type": "opening",
+      "text": "Mind if I ask what your split looks like? Trying to switch mine up.",
+      "archetypes": ["gym"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["gym"],
+      "interest_levels": ["neutral"], "boldness_levels": ["safe"], "tags": []
+    },
+    {
+      "id": "opening_bar_rave_bold_001",
+      "type": "opening",
+      "text": "Okay I have to know - what set are you most hyped for this year?",
+      "archetypes": ["rave"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["club", "festival", "bar"],
+      "interest_levels": ["neutral"], "boldness_levels": ["bold"], "tags": []
+    },
+    {
+      "id": "opening_app_gamer_confident_001",
+      "type": "opening",
+      "text": "Saw you're into [game] - what's your main? I need someone to actually carry me.",
+      "archetypes": ["gamer"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["dating_app", "instagram"],
+      "interest_levels": ["neutral"], "boldness_levels": ["confident"], "tags": []
+    },
+    {
+      "id": "opening_restaurant_traditional_safe_001",
+      "type": "opening",
+      "text": "This is a great spot - have you been here before, or is this a first-timer table too?",
+      "archetypes": ["traditional"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["restaurant", "coffee_shop"],
+      "interest_levels": ["neutral"], "boldness_levels": ["safe"], "tags": []
+    },
+    {
+      "id": "opening_campus_stem_safe_001",
+      "type": "opening",
+      "text": "Rough week of labs, huh? What are you studying?",
+      "archetypes": ["stem_nursing"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["campus", "coffee_shop", "library"],
+      "interest_levels": ["neutral"], "boldness_levels": ["safe"], "tags": []
+    },
+    {
+      "id": "followup_bookish_warm_confident_001",
+      "type": "follow_up",
+      "text": "You clearly have good taste - what's a book you'd actually push on someone who doesn't read much?",
+      "archetypes": ["bookish"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["coffee_shop", "bookstore", "library"],
+      "interest_levels": ["warm"], "boldness_levels": ["confident"], "tags": []
+    },
+    {
+      "id": "followup_gym_warm_confident_001",
+      "type": "follow_up",
+      "text": "Respect - what got you into lifting in the first place?",
+      "archetypes": ["gym"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["gym"],
+      "interest_levels": ["warm"], "boldness_levels": ["confident"], "tags": []
+    },
+    {
+      "id": "followup_general_interested_bold_001",
+      "type": "follow_up",
+      "text": "I like talking to you more than I expected to - we should keep this going somewhere other than here.",
+      "archetypes": ["bookish", "gym", "rave", "gamer", "traditional", "stem_nursing"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["coffee_shop", "bar", "gym", "bookstore", "campus", "restaurant"],
+      "interest_levels": ["interested"], "boldness_levels": ["bold"], "tags": []
+    },
+    {
+      "id": "topic_bookish_001",
+      "type": "topic",
+      "text": "Ask what they're currently reading and why they picked it up.",
+      "archetypes": ["bookish"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["any"], "interest_levels": ["any"], "boldness_levels": ["any"], "tags": []
+    },
+    {
+      "id": "topic_gym_001",
+      "type": "topic",
+      "text": "Training goals - are they bulking, cutting, training for something specific?",
+      "archetypes": ["gym"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["any"], "interest_levels": ["any"], "boldness_levels": ["any"], "tags": []
+    },
+    {
+      "id": "topic_rave_001",
+      "type": "topic",
+      "text": "How they got into the scene and their first festival.",
+      "archetypes": ["rave"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["any"], "interest_levels": ["any"], "boldness_levels": ["any"], "tags": []
+    },
+    {
+      "id": "topic_gamer_001",
+      "type": "topic",
+      "text": "What they're currently playing and whether they prefer co-op or competitive.",
+      "archetypes": ["gamer"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["any"], "interest_levels": ["any"], "boldness_levels": ["any"], "tags": []
+    },
+    {
+      "id": "avoid_general_001",
+      "type": "avoid",
+      "text": "Don't push for a number or plans immediately if they seem distracted or give short answers - read the room.",
+      "archetypes": ["any"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["any"], "interest_levels": ["neutral"], "boldness_levels": ["any"], "tags": []
+    },
+    {
+      "id": "avoid_general_002",
+      "type": "avoid",
+      "text": "Avoid backhanded compliments or negging - they read as insecurity, not confidence.",
+      "archetypes": ["any"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["any"], "interest_levels": ["any"], "boldness_levels": ["any"], "tags": []
+    },
+    {
+      "id": "avoid_gym_001",
+      "type": "avoid",
+      "text": "Don't interrupt someone mid-set - wait for a natural break.",
+      "archetypes": ["gym"], "cultures": ["any"], "cities": ["any"],
+      "venues": ["gym"], "interest_levels": ["any"], "boldness_levels": ["any"], "tags": []
+    }
+  ]
+}
