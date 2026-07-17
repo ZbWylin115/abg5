@@ -1,8 +1,9 @@
 """
 SQLite connection and schema initialization for ABG Bible.
 
-Milestone 1: sets up the database file and a placeholder table so the
-wiring is proven end-to-end. Real tables get added as features land.
+Milestone 2 note: all generator content still lives in JSON knowledge
+files, per the project requirements. SQLite is reserved for structured
+data (e.g. future user accounts, saved scenarios) - not yet needed.
 """
 
 import sqlite3
@@ -44,7 +45,7 @@ def init_db() -> None:
         conn.execute(
             """
             INSERT OR IGNORE INTO app_meta (key, value)
-            VALUES ('schema_version', '1')
+            VALUES ('schema_version', '2')
             """
         )
         conn.commit()
