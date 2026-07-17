@@ -1,0 +1,12 @@
+{
+  "date_ideas": [
+    { "id": "date_bookstore_browse", "text": "Browse a used bookstore together and each pick a book for the other.", "archetypes": ["bookish"], "cities": ["any"], "venues": ["bookstore"] },
+    { "id": "date_gym_workout", "text": "A casual gym session together, followed by smoothies.", "archetypes": ["gym"], "cities": ["any"], "venues": ["gym"] },
+    { "id": "date_festival_day", "text": "Catch a smaller daytime stage at a local festival before it gets crowded.", "archetypes": ["rave"], "cities": ["any"], "venues": ["festival"] },
+    { "id": "date_arcade_night", "text": "Retro arcade or LAN cafe for some low-stakes competitive games.", "archetypes": ["gamer"], "cities": ["any"], "venues": ["campus", "bar"] },
+    { "id": "date_dinner_classic", "text": "A sit-down dinner somewhere with good conversation-friendly seating.", "archetypes": ["traditional"], "cities": ["any"], "venues": ["restaurant"] },
+    { "id": "date_coffee_study", "text": "Grab coffee and each bring something to work on - low pressure, still time together.", "archetypes": ["stem_nursing"], "cities": ["any"], "venues": ["coffee_shop", "library"] },
+    { "id": "date_salt_lake_hike", "text": "Morning hike in the foothills followed by brunch.", "archetypes": ["gym", "traditional"], "cities": ["salt_lake_city"], "venues": ["any"] },
+    { "id": "date_miami_beach_walk", "text": "Sunset walk along the beach, then a low-key bar nearby.", "archetypes": ["any"], "cities": ["miami"], "venues": ["bar"] }
+  ]
+}
