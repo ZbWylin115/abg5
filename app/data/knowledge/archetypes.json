@@ -1,1 +1,135 @@
-
+[
+  {
+    "id": "bookish",
+    "name": "Bookish",
+    "description": "A broad archetype centered around reading, learning, creativity, intellectual interests, and quieter social environments.",
+    "tags": [
+      "books",
+      "coffee",
+      "arts",
+      "learning",
+      "conversation"
+    ],
+    "conversation_topics": [
+      "books",
+      "favorite media",
+      "hobbies",
+      "personal interests",
+      "things they are learning"
+    ],
+    "venue_compatibility": [
+      "coffee_shop",
+      "bookstore",
+      "library",
+      "campus"
+    ]
+  },
+  {
+    "id": "stem_nursing",
+    "name": "STEM / Nursing",
+    "description": "A broad archetype focused on academic, technical, healthcare, and career-oriented interests.",
+    "tags": [
+      "science",
+      "career",
+      "healthcare",
+      "ambition"
+    ],
+    "conversation_topics": [
+      "career goals",
+      "interesting projects",
+      "school experiences",
+      "work stories"
+    ],
+    "venue_compatibility": [
+      "coffee_shop",
+      "campus",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "rave",
+    "name": "Rave",
+    "description": "A broad archetype associated with music, nightlife, events, and social experiences.",
+    "tags": [
+      "music",
+      "events",
+      "nightlife",
+      "festivals"
+    ],
+    "conversation_topics": [
+      "music taste",
+      "favorite events",
+      "travel",
+      memorable experiences"
+    ],
+    "venue_compatibility": [
+      "club",
+      "festival",
+      "bar"
+    ]
+  },
+  {
+    "id": "gym",
+    "name": "Gym",
+    "description": "A broad archetype centered around fitness, health, and active lifestyles.",
+    "tags": [
+      "fitness",
+      "health",
+      "discipline",
+      "sports"
+    ],
+    "conversation_topics": [
+      "fitness goals",
+      "favorite workouts",
+      "sports",
+      "healthy habits"
+    ],
+    "venue_compatibility": [
+      "gym",
+      "coffee_shop",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "traditional",
+    "name": "Traditional",
+    "description": "A broad archetype centered around family, stability, values, and long-term interests.",
+    "tags": [
+      "family",
+      "values",
+      "traditions"
+    ],
+    "conversation_topics": [
+      "family",
+      "food traditions",
+      "hobbies",
+      "life goals"
+    ],
+    "venue_compatibility": [
+      "restaurant",
+      "coffee_shop",
+      "community_events"
+    ]
+  },
+  {
+    "id": "gamer",
+    "name": "Gamer",
+    "description": "A broad archetype connected to gaming, technology, online communities, and shared hobbies.",
+    "tags": [
+      "gaming",
+      "technology",
+      "online culture"
+    ],
+    "conversation_topics": [
+      "favorite games",
+      "technology",
+      "online communities",
+      "creative projects"
+    ],
+    "venue_compatibility": [
+      "gaming_event",
+      "coffee_shop",
+      "online"
+    ]
+  }
+]
