@@ -12,17 +12,86 @@
     <ul class="nav-links">
       <li><a href="/">Home</a></li>
       <li><a href="/generator">Generator</a></li>
+      <li><a href="/rules">Rules</a></li>
     </ul>
   </nav>
 
   <main>
     <h1 class="hero-title">Generator</h1>
-    <p class="hero-subtitle">Placeholder content for now — this proves the pipeline works end-to-end.</p>
+    <p class="hero-subtitle">Pick your context below - results are pulled from the knowledge base.</p>
 
-    <div class="panel">
-      <div id="output-box" class="output-box">Loading...</div>
+    <div class="panel form-panel">
+      <div class="field-group">
+        <label class="field-label">Archetypes (choose up to 2)</label>
+        <div id="archetype-checkboxes" class="checkbox-grid">
+          <span class="loading-text">Loading...</span>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field-group">
+          <label class="field-label" for="city-select">City</label>
+          <select id="city-select"><option value="">Loading...</option></select>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="venue-select">Venue</label>
+          <select id="venue-select"><option value="">Loading...</option></select>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field-group">
+          <label class="field-label" for="interest-select">Interest Level</label>
+          <select id="interest-select"><option value="">Loading...</option></select>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="boldness-select">Boldness</label>
+          <select id="boldness-select"><option value="">Loading...</option></select>
+        </div>
+      </div>
+
+      <div class="field-group toggle-row">
+        <label class="switch">
+          <input type="checkbox" id="cultural-toggle" />
+          <span class="slider"></span>
+        </label>
+        <label for="cultural-toggle" class="field-label toggle-label">Include Cultural Context</label>
+      </div>
+
+      <div id="culture-select-wrapper" class="field-group hidden">
+        <label class="field-label" for="culture-select">Cultural Background</label>
+        <select id="culture-select"><option value="">Loading...</option></select>
+      </div>
+
       <div class="cta-row">
         <button id="generate-btn" class="btn">Generate</button>
+      </div>
+    </div>
+
+    <div id="results-panel" class="panel results-panel hidden">
+      <div class="result-section">
+        <h3 class="result-heading">Opening Line</h3>
+        <p id="result-opening" class="output-box"></p>
+      </div>
+      <div class="result-section">
+        <h3 class="result-heading">Follow-up</h3>
+        <p id="result-followup" class="output-box"></p>
+      </div>
+      <div class="result-section">
+        <h3 class="result-heading">Conversation Topics</h3>
+        <ul id="result-topics" class="result-list"></ul>
+      </div>
+      <div class="result-section">
+        <h3 class="result-heading">Things To Avoid</h3>
+        <ul id="result-avoid" class="result-list"></ul>
+      </div>
+      <div class="result-section">
+        <h3 class="result-heading">Date Idea</h3>
+        <p id="result-date" class="output-box"></p>
+      </div>
+      <div id="result-culture-section" class="result-section hidden">
+        <h3 class="result-heading">Cultural Context</h3>
+        <div id="result-culture" class="culture-panel"></div>
       </div>
     </div>
   </main>
