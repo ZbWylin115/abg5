@@ -1,37 +1,38 @@
 """
 Generator API routes.
 
-Milestone 1: returns placeholder content loaded from a JSON file, just
-to prove the frontend <-> backend wiring. Real generation logic will
-replace the random-pick-from-list behavior later.
+Milestone 2: replaces the placeholder random-pick logic with the real
+knowledge-base-driven matching engine. Culture is never a scoring
+input - it only attaches an optional read-only info panel.
 """
 
-import json
-import random
-from pathlib import Path
+from fastapi import APIRouter, Query
 
-from fastapi import APIRouter
+from app import matching
+from app.schemas import GenerateResult
 
-router = APIRouter(prefix="/api/generator", tags=["generator"])
-
-CONTENT_PATH = Path(__file__).parent.parent / "data" / "generator_content.json"
+router = APIRouter(prefix="/api", tags=["generator"])
 
 
-def _load_content() -> dict:
-    with open(CONTENT_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+@router.get("/generate", response_model=GenerateResult)
+def generate(
+    archetypes: list[str] = Query(default=[], description="Up to 2 archetype ids"),
+    city: str | None = Query(default=None),
+    venue: str | None = Query(default=None),
+    interest_level: str | None = Query(default=None),
+    boldness_level: str | None = Query(default=None),
+    culture: str | None = Query(default=None),
+    include_cultural_context: bool = Query(default=False),
+):
+    archetypes = archetypes[:2]  # enforce "up to 2" server-side too
 
-
-@router.get("/random")
-def get_random_entry():
-    """Return one random placeholder entry."""
-    content = _load_content()
-    entry = random.choice(content["placeholders"])
-    return {"entry": entry}
-
-
-@router.get("/all")
-def get_all_entries():
-    """Return every placeholder entry (useful for debugging in-browser)."""
-    content = _load_content()
-    return {"entries": content["placeholders"]}
+    result = matching.build_generation(
+        archetypes=archetypes,
+        city=city,
+        venue=venue,
+        interest_level=interest_level,
+        boldness_level=boldness_level,
+        culture=culture,
+        include_cultural_context=include_cultural_context,
+    )
+    return result
