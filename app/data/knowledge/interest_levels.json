@@ -1,0 +1,22 @@
+{
+  "interest_levels": [
+    {
+      "id": "neutral",
+      "name": "Neutral",
+      "description": "Early conversation, no clear signal either way yet.",
+      "tone_guidance": "Keep things light and low-pressure. No assumptions about mutual interest yet."
+    },
+    {
+      "id": "warm",
+      "name": "Warm",
+      "description": "They're responsive and engaged.",
+      "tone_guidance": "You can be a bit more personal and forward, while still reading their responses."
+    },
+    {
+      "id": "interested",
+      "name": "Interested",
+      "description": "Clear mutual interest has been established.",
+      "tone_guidance": "Direct, confident follow-through - e.g. suggesting a specific plan - fits here."
+    }
+  ]
+}
