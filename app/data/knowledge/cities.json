@@ -1,0 +1,46 @@
+{
+  "cities": [
+    {
+      "id": "nyc",
+      "name": "New York City",
+      "venues": ["coffee_shop", "bar", "club", "bookstore", "restaurant", "campus"],
+      "local_context": "Fast-paced; people often appreciate directness and not wasting their time.",
+      "tags": ["dense", "fast-paced"]
+    },
+    {
+      "id": "los_angeles",
+      "name": "Los Angeles",
+      "venues": ["coffee_shop", "gym", "bar", "festival", "restaurant"],
+      "local_context": "Spread out; car culture means plans often need more lead time.",
+      "tags": ["spread-out", "casual"]
+    },
+    {
+      "id": "san_francisco",
+      "name": "San Francisco",
+      "venues": ["coffee_shop", "bookstore", "bar", "campus"],
+      "local_context": "Tech-heavy population; smaller and more insular social scene.",
+      "tags": ["tech", "walkable"]
+    },
+    {
+      "id": "houston",
+      "name": "Houston",
+      "venues": ["restaurant", "bar", "gym", "campus"],
+      "local_context": "Very spread out; a lot of socializing centers on food.",
+      "tags": ["spread-out", "food-centric"]
+    },
+    {
+      "id": "salt_lake_city",
+      "name": "Salt Lake City",
+      "venues": ["coffee_shop", "gym", "campus", "restaurant", "bookstore"],
+      "local_context": "Outdoorsy culture; a mix of nightlife and more low-key daytime social scenes.",
+      "tags": ["outdoorsy", "mixed"]
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "venues": ["club", "bar", "gym", "restaurant", "festival"],
+      "local_context": "Nightlife-heavy; a lot of social activity happens late.",
+      "tags": ["nightlife", "warm-climate"]
+    }
+  ]
+}
