@@ -1,0 +1,61 @@
+{
+  "_note": "Informational reference only. Never used by the matching engine to select or alter conversation content. Surfaced only as an optional info panel when the user explicitly opts in.",
+  "cultures": [
+    {
+      "id": "chinese_american",
+      "display_name": "Chinese-American",
+      "regions": ["US"],
+      "conversation_topics": ["food traditions", "family experiences", "travel", "hobbies", "language learning"],
+      "respect_notes": ["Ask genuine questions instead of assuming cultural knowledge", "Let them share what's relevant to them personally"],
+      "avoid_assumptions": ["Do not assume language ability", "Do not assume closeness to cultural traditions", "Do not assume immigration background"]
+    },
+    {
+      "id": "korean_american",
+      "display_name": "Korean-American",
+      "regions": ["US"],
+      "conversation_topics": ["food traditions", "family experiences", "travel", "music/entertainment", "hobbies"],
+      "respect_notes": ["Ask genuine questions instead of assuming cultural knowledge"],
+      "avoid_assumptions": ["Do not assume language ability", "Do not assume familiarity with Korean pop culture", "Do not assume closeness to cultural traditions"]
+    },
+    {
+      "id": "japanese_american",
+      "display_name": "Japanese-American",
+      "regions": ["US"],
+      "conversation_topics": ["food traditions", "family experiences", "travel", "hobbies", "art/design"],
+      "respect_notes": ["Ask genuine questions instead of assuming cultural knowledge"],
+      "avoid_assumptions": ["Do not assume language ability", "Do not assume closeness to cultural traditions", "Do not conflate with other East Asian cultures"]
+    },
+    {
+      "id": "vietnamese_american",
+      "display_name": "Vietnamese-American",
+      "regions": ["US"],
+      "conversation_topics": ["food traditions", "family experiences", "travel", "hobbies"],
+      "respect_notes": ["Ask genuine questions instead of assuming cultural knowledge"],
+      "avoid_assumptions": ["Do not assume language ability", "Do not assume closeness to cultural traditions"]
+    },
+    {
+      "id": "filipino_american",
+      "display_name": "Filipino-American",
+      "regions": ["US"],
+      "conversation_topics": ["food traditions", "family experiences", "travel", "music", "hobbies"],
+      "respect_notes": ["Ask genuine questions instead of assuming cultural knowledge"],
+      "avoid_assumptions": ["Do not assume language ability", "Do not assume closeness to cultural traditions"]
+    },
+    {
+      "id": "thai_american",
+      "display_name": "Thai-American",
+      "regions": ["US"],
+      "conversation_topics": ["food traditions", "family experiences", "travel", "hobbies"],
+      "respect_notes": ["Ask genuine questions instead of assuming cultural knowledge"],
+      "avoid_assumptions": ["Do not assume language ability", "Do not assume closeness to cultural traditions"]
+    },
+    {
+      "id": "indian_american",
+      "display_name": "Indian-American",
+      "regions": ["US"],
+      "conversation_topics": ["food traditions", "family experiences", "travel", "hobbies", "career/education"],
+      "respect_notes": ["Ask genuine questions instead of assuming cultural knowledge", "India has many distinct languages/regions/religions - avoid treating it as one culture"],
+      "avoid_assumptions": ["Do not assume language ability", "Do not assume religion", "Do not assume closeness to cultural traditions"]
+    }
+  ]
+}
