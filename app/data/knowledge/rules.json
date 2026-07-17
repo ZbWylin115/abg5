@@ -1,0 +1,12 @@
+{
+  "rules": [
+    { "id": "confidence_not_arrogance", "text": "Confidence without arrogance - be sure of yourself without putting the other person down." },
+    { "id": "respect_boundaries", "text": "Respect boundaries. If someone gives short answers, changes the subject, or steps back physically, that's your answer." },
+    { "id": "read_interest", "text": "Read interest levels honestly. Don't talk yourself into signals that aren't there." },
+    { "id": "no_pressure", "text": "Don't pressure people for a number, a plan, or a response. Ask once, respectfully, and let it be their call." },
+    { "id": "accept_rejection", "text": "Accept rejection gracefully. A calm 'no worries, have a good one' costs you nothing and shows more character than pushing." },
+    { "id": "be_authentic", "text": "Be authentic. A line that isn't you will fall flat the moment a real conversation starts." },
+    { "id": "individuals_not_categories", "text": "Treat people as individuals, not as a category or checklist - archetypes and context here are conversation starters, not conclusions." },
+    { "id": "consent_first", "text": "Any escalation - physical or otherwise - should follow clear mutual enthusiasm, not just the absence of a 'no'." }
+  ]
+}
