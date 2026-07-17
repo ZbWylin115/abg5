@@ -12,7 +12,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
 from app.database import init_db
-from app.routers import generator
+from app.routers import generator, knowledge
 
 BASE_DIR = Path(__file__).parent
 STATIC_DIR = BASE_DIR / "static"
@@ -22,6 +22,7 @@ app = FastAPI(title="ABG Bible")
 
 # --- API routers ---
 app.include_router(generator.router)
+app.include_router(knowledge.router)
 
 # --- Static assets (css/js) ---
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
@@ -41,3 +42,8 @@ def serve_index():
 @app.get("/generator")
 def serve_generator():
     return FileResponse(PAGES_DIR / "generator.html")
+
+
+@app.get("/rules")
+def serve_rules():
+    return FileResponse(PAGES_DIR / "rules.html")
